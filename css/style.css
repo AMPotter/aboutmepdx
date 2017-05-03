@@ -1,0 +1,28 @@
+* {
+    background-color: hotpink;
+    font: verdana;
+}
+
+h1 {
+    background-color: black;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(white));
+    background-image: -webkit-linear-gradient(top, black, white);
+    background-image: -moz-linear-gradient(top, black, white);
+    background-image: linear-gradient(to bottom, black, white);
+}
+
+p {
+    font-style: italic;
+    font-family: fantasy;
+    background-color: greenyellow;
+}
+
+.list {
+    font-size: 16pt;
+    font-style: bold;
+}
+
+#flurps {
+    font-family: cursive;
+    font-stretch: extra-expanded;
+}
