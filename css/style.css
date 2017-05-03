@@ -1,20 +1,21 @@
 * {
-    background-color: hotpink;
-    font: verdana;
+    background-color: #F4CC70;
+    font-family: helvetica;
 }
 
 h1 {
-    background-color: black;
+
+    /*background-color: black;
     background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(white));
     background-image: -webkit-linear-gradient(top, black, white);
     background-image: -moz-linear-gradient(top, black, white);
-    background-image: linear-gradient(to bottom, black, white);
+    background-image: linear-gradient(to bottom, black, white);*/
 }
 
 p {
-    font-style: italic;
-    font-family: fantasy;
-    background-color: greenyellow;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #34675C;
 }
 
 .list {

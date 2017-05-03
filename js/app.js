@@ -25,7 +25,7 @@ deservedHero();
 
 var eatenEgg1;
 
-function eatenEgg() {
+// function eatenEgg() {
     eatenEgg1 = prompt('Do you believe that Andrew Michael Potter (America\'s Boy) enjoys a nice plate of eggs on a cold winter\'s morn?').toUpperCase();
 
     if (eatenEgg1 === 'Y' || eatenEgg1 === 'YES') {
@@ -35,7 +35,7 @@ function eatenEgg() {
     } else {
         whileEatenEgg();
     }
-}
+// }
 
 function whileEatenEgg() {
     while (eatenEgg1 !== 'Y' && eatenEgg1 !== 'YES' && eatenEgg1 !== 'N' && eatenEgg1 !== 'NO') {
@@ -44,7 +44,7 @@ function whileEatenEgg() {
     }
 }
 
-eatenEgg();
+// eatenEgg();
 
 var speaksGerman1;
 
@@ -114,3 +114,9 @@ function whileTeaBoy() {
 }
 
 teaBoy();
+
+function randomNumber() {
+    min = Math.ceil(1);
+    max = Math.floor(10);
+
+}
