@@ -4,13 +4,14 @@
     margin-right: 20px;
     padding-left: 10px;
     padding-right: 10px;
-    line-height: 80%;
+    line-height: 110%;
 }
 
 h1 {
     font-style: italic;
     background-color: black;
     color: white;
+    text-align: center;
 }
 
 #top-header {
@@ -26,8 +27,9 @@ p {
 }
 
 div {
-    margin: auto;
     padding: 20px;
+    margin: 10px, auto, 10px, auto;
+    text-align: left;
 }
 
 
