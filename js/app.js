@@ -113,8 +113,8 @@ for (var instrumentAttempts = 0; instrumentAttempts < 6; instrumentAttempts ++) 
         }
     
         if (instrumentCorrect = true) {
-        break;
-    }
+            break;
+        }
 
     }
 }
