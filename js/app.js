@@ -3,7 +3,8 @@
 var correctAnswers = 0;
 
 //First five questions
-var deservedHero1;
+function hero () {
+    var deservedHero1;
 
 deservedHero1 = prompt('Is Andrew Michael Potter (Boy Wonder) the hero Gotham deserves?').toUpperCase();
 
@@ -15,6 +16,10 @@ if (deservedHero1 === 'Y' || deservedHero1 === 'YES') {
 } else {
     alert('That\'s not even a real word.');
 }
+}
+hero ();
+
+function egg (){
 
 var eatenEgg1;
 
@@ -28,7 +33,10 @@ if (eatenEgg1 === 'Y' || eatenEgg1 === 'YES') {
 } else {
     alert('That\'s not even a real word.');
 }
+}
+egg ();
 
+function german (){
 var speaksGerman1;
 
 speaksGerman1 = prompt('Can Andrew Michael Potter (Mensa VIP) speak the soft and rounded language of German?').toUpperCase();
@@ -42,7 +50,10 @@ if (speaksGerman1 === 'Y' || speaksGerman1 === 'YES') {
 } else {
     alert('That\'s not even a real word.');
 }
+}
+german ();
 
+function metal(){
 var heavyMetal1;
 
 heavyMetal1 = prompt('Is Andrew Michael Potter (Prince of Darkness) a purveyor of heavy riffs?').toUpperCase();
@@ -55,7 +66,10 @@ if (heavyMetal1 === 'Y' || heavyMetal1 === 'YES') {
 } else {
     alert('That\'s not even a real word.');
 }
+}
+metal ();
 
+function tea (){
 var teaBoy1;
 
 teaBoy1 = prompt('Is Andrew Michael Potter (Endlessly Quoted By Philosophers) an adept hand at making tea?').toUpperCase();
@@ -68,9 +82,11 @@ if (teaBoy1 === 'Y' || teaBoy1 === 'YES') {
 } else {
     alert('That\'s not even a real word.');
 }
+}
+tea();
 
 // Sixth question: Guess the number. You get four tries. Too high and too low indications.
-
+function pursuersFunction (){
 var pursuers = 3;
 
 for (var attempts = 0; attempts < 4; attempts ++) {
@@ -92,9 +108,11 @@ for (var attempts = 0; attempts < 4; attempts ++) {
         alert('I don\'t have all day to sit here and let you guess. 3! I was looking for 3! And with every wrong guess you make, they get closer and closer. We should move on while I still have time.');
     }
 }
+}
+pursuersFunction();
 
 // Seventh question: Guess one of the correct answers in the array. Six tries. Displays all correct results upon either correct guess or running out of tries.
-
+function music (){
 var instrumentsPlayed = ['GUITAR', 'BASS', 'DRUMS', 'ACCORDION', 'PIANO', 'RECORDER', 'CLARINET', 'UKULELE'];
 var instrumentCorrect = false;
 
@@ -118,5 +136,7 @@ for (var instrumentAttempts = 0; instrumentAttempts < 6; instrumentAttempts ++) 
 
     }
 }
+}
+music ();
 var userName = prompt('Wait, I don\'t think I ever got your name. Could you type it here, please, so I can address you properly when I give you your score?');
 alert('Hey, ' + userName + '. Out of the 7 questions in this quiz, you managed to get ' + correctAnswers + ' correct.');
