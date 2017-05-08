@@ -1,28 +1,41 @@
 * {
-    background-color: hotpink;
-    font: verdana;
+    background-color: sandybrown;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 110%;
 }
 
 h1 {
+    font-style: italic;
     background-color: black;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(white));
-    background-image: -webkit-linear-gradient(top, black, white);
-    background-image: -moz-linear-gradient(top, black, white);
-    background-image: linear-gradient(to bottom, black, white);
+    color: white;
+    text-align: center;
+}
+
+#top-header {
+    vertical-align: center;
+    margin: 20px;
 }
 
 p {
-    font-style: italic;
-    font-family: fantasy;
-    background-color: greenyellow;
+    font-size: 15pt;
+    background-color: gray;
+    line-height: 120%;
+    padding: 10px;
+}
+
+div {
+    padding: 20px;
+    margin: 10px, auto, 10px, auto;
+    text-align: left;
 }
 
 .list {
-    font-size: 16pt;
-    font-style: bold;
+    font-size: 14pt;
 }
 
-#flurps {
-    font-family: cursive;
+#bands {
     font-stretch: extra-expanded;
 }
